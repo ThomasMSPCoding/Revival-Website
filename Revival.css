@@ -1,0 +1,156 @@
+/*General Background styling*/
+body{
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background: transparent;
+}
+
+a{
+    text-decoration: none;
+    color:purple; 
+    text-shadow:2px 2px 6px rgba(0,0,0,0.3) ;
+}
+
+a.NiggaHH{
+    color: white; /* Link color for buttons */
+}
+
+/*Index styling*/
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.image-container img {
+    width: 600px;  
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* optional: shadow */
+}
+
+
+.logo{
+    width: 220px;
+    height: 200px;
+    margin: 20px auto;
+    display: inline-block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.07) ;
+    box-shadow: 0 0 30px 5px #626262, 0 0 60px 10px #fff2;
+    cursor: pointer;
+}
+
+.RevivalBox{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 30px 40px;
+    width: 70%;          
+    background:  rgba(20, 20, 20, 0.7);;         
+    border-radius: 20px;         
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2); 
+    display: inline-block;
+}
+
+.RevivalList{
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+h1{
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+h2{
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+footer{
+    color: white;
+}
+
+.footer-container{
+     background: rgba(20, 20, 20, 0.8);
+    padding: 20px 30px;
+    margin: 30px auto 0 auto;
+    width: auto;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/*Box glass effect*/
+
+.RevivalBox:hover {
+    box-shadow: 0 0 20px 4px #c1c1c1, 0 0 40px 8px #6767673f;
+    transition: background 0.3s, box-shadow 0.3s, border 0.3s;
+}
+
+/*Navigation Bar*/
+.btn {
+ width: 130px;
+ height: 40px;
+ font-size: 1.1em;
+ cursor: pointer;
+ background-color: rgba(20, 20, 20, 0.8);
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ transition: all .4s;
+}
+
+.btn:hover {
+ border-radius: 5px;
+ transform: translateY(-10px);
+ box-shadow: 0 7px 0 -2px #5a5a5a,
+  0 15px 0 -4px #acacac,
+  0 16px 10px -3px #acacac;
+}
+
+.btn:active {
+ transition: all 0.2s;
+ transform: translateY(-5px);
+ box-shadow: 0 2px 0 -2px #5a5a5a,
+  0 8px 0 -4px #acacac,
+  0 12px 10px -3px #acacac;
+}
+
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* space between items */
+}
+
+.nav-links .btn {
+    margin: 0 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.RevivalList{
+    list-style:none ;
+}
+
