@@ -154,3 +154,39 @@ footer{
     list-style:none ;
 }
 
+
+/*All Black box styling*/
+
+.RevivalBox2 {
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 30px 40px;
+    width: 70%;          
+    background: rgba(20, 20, 20, 0.7);;         
+    border-radius: 20px;         
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.RevivalBox2 .B
+
+.Picture_left {
+    flex-shrink: 0;         /* Prevent image from shrinking */
+}
+
+.Picture_left img {
+    width: 400px;           /* Adjust as needed */
+    height: 250px;          /* Adjust as needed */
+    object-fit: cover;      /* Crop image to fit box */
+    display: block;
+}
+
+.BoxContent {
+    flex: 1;                /* Take remaining space */
+    padding-left: 30px;     /* Space between image and text */
+    text-align: left;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+}
