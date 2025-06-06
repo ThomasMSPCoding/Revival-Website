@@ -14,7 +14,9 @@ window.addEventListener('DOMContentLoaded', function() {
 
         if (username === validUser && password === validPass) {
             localStorage.setItem('loggedIn', 'true');
-            window.location.href = 'Journal.html';
+            const params = new URLSearchParams(window.location.search);
+            const redirect = params.get('from') || 'Journal.html';
+            window.location.href = redirect;
         } else {
             error.textContent = 'Invalid credentials';
         }

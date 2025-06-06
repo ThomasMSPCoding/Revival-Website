@@ -92,7 +92,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     if (loginBtn) {
         loginBtn.addEventListener('click', function() {
-            window.location.href = 'login.html';
+            window.location.href = 'login.html?from=Journal.html';
         });
     }
-
+});

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revival Crew Journal</title>
+    <title>Revival Crew Gallery</title>
     <link rel="stylesheet" href="Revival.css">
 </head>
 
@@ -11,16 +11,38 @@
     <nav class="navbar">
         <ul class="nav-links">
             <button class="btn"><a class="NiggaHH" href="Index.html">Home</a></button>
-            <a href="Index.html"><img src="Logo_white.png" alt="Revival Crew Logo" class="logo"></a>
+            <button class="btn"><a class="NiggaHH" href="About us.html">About us</a></button>
+            <a href="Index.html	"><img src="Logo_white.png" alt="Revival Crew Logo" class="logo" > </a>
             <button class="btn"><a class="NiggaHH" href="Journal.html">Journal</a></button>
+            <button class="btn"><a class="NiggaHH" href="Shop.html">Shop</a></button>
         </ul>
+
     </nav>
 
     <main class="GalleryPage">
         <div class="container">
-            <h1>Revival Crew Gallery</h1>
-            <p>Explore our collection of photos showcasing the passion and creativity of the Revival Crew. From car meets to individual builds, each image tells a story of our community's love for automotive culture.</p>
-            <!-- Gallery images can be added here -->
+            <div class="RevivalBox2">
+                <h1>Revival Crew Gallery</h1>
+                <p>Explore our collection of photos showcasing the passion and creativity of the Revival Crew. From car meets to individual builds, each image tells a story of our community's love for automotive culture.</p>
+            
+
+            <div id="loginPrompt" class="RevivalBox2">
+                <p>You must log in to post media.</p>
+            </div>
+
+            <form id="updateForm" class="RevivalBox2" style="display:none;">
+                <input type="text" id="mediaTitle" placeholder="Title" required><br>
+                <input type="date" id="mediaDate" required><br>
+                <input type="file" id="mediaInput" accept="image/*,video/*" required><br>
+                <button class="btn" type="submit">Add Post</button>
+            </form>
+
+            <div id="updates"></div>
+
+            <button id="logoutBtn" class="btn" style="display:none; margin-top:10px;">Logout</button>
+        </div>
+        <button id="loginBtn" class="btn login-fixed">Login</button>
+        <script src="gallery.js"></script>
         </div>
     </main>
 
