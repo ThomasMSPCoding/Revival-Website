@@ -215,8 +215,34 @@ footer{
     padding: 8px;
     width: 200px;
 }
-#updates p {
-    text-align: left;
-    margin: 10px 0;
-    color: white;
+
+#updateForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#updates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.post-image {
+    margin-top: 10px;
+    height: 840px;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+}
+
+.delete-btn {
+    margin-top: 10px;
 }
