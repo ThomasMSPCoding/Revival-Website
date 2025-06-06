@@ -22,7 +22,21 @@
                 <h1>Revival Crew Journal</h1>
                 <p>Welcome to the Revival Crew Journal, where we share our latest adventures, projects, and community highlights. Stay tuned for updates on our car meets, builds, and everything in between!</p>
             </div>
+
+            <div id="loginPrompt" class="RevivalBox2">
+                <p>You must <a href="login.html">log in</a> to post updates.</p>
+            </div>
+
+            <form id="updateForm" class="RevivalBox2" style="display:none;">
+                <textarea id="updateContent" rows="4" cols="50" placeholder="Write your update here..."></textarea><br>
+                <button class="btn" type="submit">Add Update</button>
+            </form>
+
+            <div id="updates" class="RevivalBox2"></div>
+
+            <button id="logoutBtn" class="btn" style="display:none; margin-top:10px;">Logout</button>
         </div>
+        <script src="journal.js"></script>
     </main>
 
     <footer class="footer">
