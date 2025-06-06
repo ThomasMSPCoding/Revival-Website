@@ -209,3 +209,83 @@ footer{
     border-radius: 2px;
     box-shadow: 0 0 4px 0.5px rgba(255,255,255,0.4);
 }
+/* Login and Journal additions */
+.login-container input {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+#updateForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#updates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.post-image {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.delete-btn {
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 140px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .RevivalBox,
+    .RevivalBox2 {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .BoxRow {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Picture_left img,
+    .Picture_right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .login-fixed {
+        bottom: 10px;
+        right: 10px;
+    }
+}
