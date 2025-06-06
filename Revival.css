@@ -237,6 +237,8 @@ footer{
 
 .post-image {
     margin-top: 10px;
+    height: 840px;
+    width: 600px;
     max-width: 100%;
     height: auto;
 }
@@ -244,6 +246,7 @@ footer{
 .delete-btn {
     margin-top: 10px;
 }
+
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
@@ -289,3 +292,4 @@ footer{
         right: 10px;
     }
 }
+
