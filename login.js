@@ -19,4 +19,3 @@ window.addEventListener('DOMContentLoaded', function() {
             error.textContent = 'Invalid credentials';
         }
     });
-});

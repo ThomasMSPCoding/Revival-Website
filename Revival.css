@@ -246,3 +246,50 @@ footer{
 .delete-btn {
     margin-top: 10px;
 }
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 140px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .RevivalBox,
+    .RevivalBox2 {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .BoxRow {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Picture_left img,
+    .Picture_right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .login-fixed {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
