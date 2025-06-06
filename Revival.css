@@ -158,35 +158,54 @@ footer{
 /*All Black box styling*/
 
 .RevivalBox2 {
-    display: flex;
-    text-align: center;
+    display: inline-block;
+    flex-direction: column;   
+    align-items: center;      
     color: rgb(255, 255, 255);
-    margin-top: 10px;
+    margin-top: 30px auto;
     padding: 30px 40px;
     width: 70%;          
-    background: rgba(20, 20, 20, 0.7);;         
+    background: rgba(20, 20, 20, 0.7);         
     border-radius: 20px;         
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2); 
 }
 
-.RevivalBox2 .B
+.Title {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
 
-.Picture_left {
-    flex-shrink: 0;         /* Prevent image from shrinking */
+.BoxRow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap : 100px; /* space between boxes my biatches */
+    margin-top: 50px;
 }
 
 .Picture_left img {
-    width: 400px;           /* Adjust as needed */
-    height: 250px;          /* Adjust as needed */
-    object-fit: cover;      /* Crop image to fit box */
+    width: 420px;         
+    height: 320px;        
+    object-fit: cover;    
+    display: block;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.2); ;
+}
+.Picture_right img {
+    width: 480px;         
+    height: 320px;  
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     display: block;
 }
 
-.BoxContent {
-    flex: 1;                /* Take remaining space */
-    padding-left: 30px;     /* Space between image and text */
-    text-align: left;
-    color: white;
-    padding-top: 0;
-    padding-bottom: 0;
+.glow-line {
+    border: none;
+    height: 3px;
+    width: 80%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 4px 0.5px rgba(255,255,255,0.4);
 }
