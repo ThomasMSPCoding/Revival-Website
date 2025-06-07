@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla>
+    <Servers>
+        <Server>
+            <Host>ftp.example.com</Host>
+            <Port>21</Port>
+            <Protocol>FTP</Protocol>
+            <Type>0</Type>
+            <User>username</User>
+            <Pass>password</Pass>
+            <Logontype>1</Logontype>
+            <Name>Revivale Website</Name>
+            <RemoteDir>/path/on/server</RemoteDir>
+        </Server>
+    </Servers>
+</FileZilla

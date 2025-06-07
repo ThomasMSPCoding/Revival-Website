@@ -1,0 +1,16 @@
+#!/bin/sh
+
+HOST="ftp.example.com"
+USER="username"
+PASS="password"
+REMOTE_DIR="/remote/directory"
+
+FTP_COMMAND=ftp
+
+$FTP_COMMAND -inv $HOST <<END_SCRIPT
+user $USER $PASS
+lcd $(pwd)
+cd $REMOTE_DIR
+mput *
+bye
+END_SCRIPT
