@@ -409,6 +409,8 @@ footer{
         box-sizing: border-box;
     }
 
+ 
+
     .navbar .nav-links {
         flex-direction: column;
         gap: 10px;
@@ -442,5 +444,39 @@ footer{
     .footer-container {
         width: 98% !important;
         padding: 10px !important;
+    }
+}
+
+/* Navigation bar for phone */
+.hambruger{
+    display: none;
+    font-size: 2em;
+    background: none;
+    border:none;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    z-index:1100 ;
+}
+
+@media(max-width: 700px) {
+    .hambruger {
+        display: block;
+    }
+
+    .nav-links {
+       display: none;
+        flex-direction: column;
+        background: rgba(20,20,20,0.95);
+        position: absolute;
+        top: 60px; /* adjust based on your navbar height */
+        left: 0;
+        width: 100%;
+        padding: 20px 0;
+        z-index: 1000; 
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 }
